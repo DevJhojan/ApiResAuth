@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C files
+*.c
+*.h
+
+# Distribution / packaging
+dist/
+build/
+
+# Environments
+.env
+venv/
+env/
+env3/
+venv3/
+vnv_auth/
+.vscode/
+
+# .pyc files
+*.pyc
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Output of coverage tool
+htmlcov/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.tox/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest
+pytest_cache/
+
