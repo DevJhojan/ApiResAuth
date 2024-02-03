@@ -1,53 +1,61 @@
-*{
+* {
   background-color: black;
   color: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 2rem;
 }
-form{
+
+form {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  width: 30%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+label {
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 130%;
+}
+
+input {
   width: 70%;
-  margin: auto;
-}
-label{
-  margin: auto;
-  font-size: 2.5rem;
-}
-input{
-  width: 80%;
-  height: 2rem;
+  height: 0.5px;
   margin: auto;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 1rem;
   border-color: red;
 }
-.contenid{
+.contenid {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1%;
 }
-.contenid-button{
+.contenid-button {
+  width: 80%;
   display: flex;
   flex-wrap: nowrap;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
 }
 
-button{
-  padding: 1rem;
+button {
+  padding: 0.8rem;
   border-radius: 1rem;
-  border:none;
+  border: none;
   background-color: red;
-  font-size: 1rem;
+  font-size: 85%;
   color: white;
-  margin: auto 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  width: 60%;
 }
 
-button:hover{
+button:hover {
   background-color: #d93a3a;
   cursor: pointer;
 }
