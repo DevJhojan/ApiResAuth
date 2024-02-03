@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from login import login_simple
+
 auth = FastAPI()
 
 auth.include_router(login_simple.login_simple)
