@@ -40,7 +40,7 @@ def search_user(username:str):
             username=str(user_data["username"]),
             name=str(user_data["name"]),
             last_name=str(user_data["last_name"]),
-            age=str(user_data["age"]),
+            age = int(str(user_data["age"])),
             email=str(user_data["email"]),
             disable=bool(user_data["disable"])
         )
