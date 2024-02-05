@@ -7,21 +7,21 @@ from fastapi import Depends, HTTPException, status
 oauth2 = OAuth2PasswordBearer(tokenUrl="auth")
 
 users_list = {
-  "Jhojan": {
-    "username": "Jhojan",
-    "name": "jhojan",
-    "last_name": "toro",
+  "Devin":{
+    "username": "DevCoro",
+    "name": "Devian Coro",
+    "last_name": "Cerez",
     "age": 32,
-    "email": "jhojan@email.com",
+    "email": "dev@email.com",
     "disable": True,
     "password": "root"
   },
-  "Jhojan2":{
-    "username": "Jhojan2",
-    "name": "jhojan2 ",
-    "last_name": "Toro",
+  "liv":{
+    "username": "DevRerea",
+    "name": "Liv Rerez",
+    "last_name": "Curtos",
     "age": 23,
-    "email": "jhojan2@email.com",
+    "email": "DevRC@email.com",
     "disable": False,
     "password": "root2"
   },
